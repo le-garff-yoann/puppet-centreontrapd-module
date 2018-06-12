@@ -1,0 +1,40 @@
+{
+    "name":"puppet-centreontrapd-module",
+    "version":"0.1",
+    "author":"Le Garff Yoann",
+    "summary":"Centreontrapd daemon management module",
+    "license":"Apache 2.0",
+    "source":"https://github.com/le-garff-yoann/puppet-centreontrapd-module.git",
+    "project_page":"https://github.com/le-garff-yoann/puppet-centreontrapd-module",
+    "issues_url":"https://github.com/le-garff-yoann/puppet-centreontrapd-module/issues",
+    "dependencies":[
+        {
+            "name":"puppetlabs/stdlib",
+            "version_requirement":">= 4.22.0 < 5.0.0"
+        }
+    ],
+    "requirements":[
+        {
+            "name":"puppet",
+            "version_requirement":">= 4.10.0 < 6.0.0"
+        }
+    ],
+    "operatingsystem_support":[
+        {
+            "operatingsystem":"Debian",
+            "operatingsystemrelease":[
+                "6",
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "operatingsystem":"RedHat",
+            "operatingsystemrelease":[
+                "6",
+                "7"
+            ]
+        }
+    ]
+}
